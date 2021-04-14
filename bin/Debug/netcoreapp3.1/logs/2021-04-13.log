@@ -1,0 +1,70 @@
+2021-04-13 10:26:48.4991|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 10:26:48.5301|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 10:26:48.6200|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 10:26:49.8733|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 10:27:00.0685|INFO|BibleLoggerRule|Entering VerseController.Detials: 
+ With Paramenter: 2
+2021-04-13 10:27:00.0685|INFO|BibleLoggerRule|Entering VerseBusinessService.GetById: 
+ With Parameter: 2
+2021-04-13 10:27:00.0685|INFO|BibleLoggerRule|Entering VerseDAO.GetById 
+ With Parameter: 2
+2021-04-13 10:27:00.1050|INFO|BibleLoggerRule|Leaving VerseDAO.GetById 
+ With Parameter: Id: 2 Testament: Old        Book: Genesis                                                                                              Chapter Number: 1 Verse Number: 2 Text: Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.
+2021-04-13 10:27:04.7944|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 10:27:04.7944|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 10:27:04.7944|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 10:27:04.7944|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 10:31:13.9799|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 10:31:14.0008|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 10:31:14.0716|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 10:31:14.2192|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 10:32:03.3938|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 10:32:03.4406|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 10:32:03.4622|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 10:32:03.7043|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 10:32:35.8066|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 10:32:35.8294|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 10:32:35.8628|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 10:32:36.0106|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 10:32:37.8107|INFO|BibleLoggerRule|Entering VerseController.Detials: 
+ With Paramenter: 1
+2021-04-13 10:32:37.8107|INFO|BibleLoggerRule|Entering VerseBusinessService.GetById: 
+ With Parameter: 1
+2021-04-13 10:32:37.8107|INFO|BibleLoggerRule|Entering VerseDAO.GetById 
+ With Parameter: 1
+2021-04-13 10:32:37.8454|INFO|BibleLoggerRule|Leaving VerseDAO.GetById 
+ With Parameter: Id: 1 Testament: Old        Book: Genesis                                                                                              Chapter Number: 1 Verse Number: 1 Text: In the beginning God created the heavens and the earth.
+2021-04-13 10:32:40.1284|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 10:32:40.1284|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 10:32:40.1284|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 10:32:40.1284|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 11:25:31.4335|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 11:25:31.4539|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 11:25:31.4714|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 11:25:32.5464|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 11:25:43.9522|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: 7 and 4
+2021-04-13 11:25:43.9522|INFO|BibleLoggerRule|Leaving VerseController.Serach to SerachVerse
+2021-04-13 11:25:43.9522|INFO|BibleLoggerRule|Entering VerseBusinessService.SearchVerse: 
+ With Parameter: 7
+2021-04-13 11:25:43.9561|INFO|BibleLoggerRule|Entering VerseDAO.SearchVerse 
+ With Parameter: 7
+2021-04-13 11:25:43.9773|INFO|BibleLoggerRule|Leaving VerseDAO.SerachVerse 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 11:25:47.2549|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 11:25:47.2549|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 11:25:47.2549|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 11:25:47.2549|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-13 11:27:48.1178|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-13 11:27:48.1385|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-13 11:27:48.1556|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-13 11:27:48.2933|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]

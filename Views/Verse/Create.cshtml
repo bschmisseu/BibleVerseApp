@@ -1,0 +1,47 @@
+﻿@model BibleVerseApp.Models.VerseModel
+
+<h4>VerseModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ProcessCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Testament" class="control-label"></label>
+                <input asp-for="Testament" class="form-control" />
+                <span asp-validation-for="Testament" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Book" class="control-label"></label>
+                <input asp-for="Book" class="form-control" />
+                <span asp-validation-for="Book" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChapNum" class="control-label"></label>
+                <input asp-for="ChapNum" class="form-control" />
+                <span asp-validation-for="ChapNum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VerseNum" class="control-label"></label>
+                <input asp-for="VerseNum" class="form-control" />
+                <span asp-validation-for="VerseNum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text" class="control-label"></label>
+                <input asp-for="Text" class="form-control" />
+                <span asp-validation-for="Text" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

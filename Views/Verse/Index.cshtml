@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BibleVerseApp.Models.VerseModel>
+
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-4">
+            <form asp-action="Create">
+                <button height="1rem" type="submit" class="btn btn-primary">Create</button>
+            </form>
+        </div>
+        <div class="col-4">
+            <form asp-action="Search" class="form-group row">
+                <div class="col-xs-3" style="display: inline">
+                    <input class="form-control" id="SearchParam" name="SearchParam" type="text" placeholder="Search Database">
+                </div>
+                <div class="col-xs-2" style="display: inline">
+                    <div class="input-group">
+                        <select class="custom-select col-xs-3" id="Option" name="Option">
+                            <option value="0" selected>Search All</option>
+                            <option value="1">Testament</option>
+                            <option value="2">Chapter</option>
+                            <option value="3">Book</option>
+                            <option value="4">Verse</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-light">
+                    <svg id="search-icon" style="width: 20px; height: 20px" class="search-icon" color="#CED4DA" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                        <path d="M0 0h24v24H0z" fill="none" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Verse Number and Book
+            </th>
+            <th>
+                Verse Text
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               @item.Book @item.ChapNum : @item.VerseNum
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                <form asp-action="Details">
+                    <input type="hidden" id="Id" name="Id" value="@item.Id">
+                    <button height="1rem" type="submit" class="btn btn-primary">Show More</button>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

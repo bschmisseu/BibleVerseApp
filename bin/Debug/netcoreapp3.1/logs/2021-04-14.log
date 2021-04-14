@@ -1,0 +1,114 @@
+2021-04-14 14:39:00.7972|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 14:39:00.8839|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 14:39:00.9433|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 14:39:02.7984|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:39:21.7013|INFO|BibleLoggerRule|Entering VerseController.Create
+2021-04-14 14:39:37.3063|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 14:39:37.3063|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 14:39:37.3063|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 14:39:37.3257|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:39:38.8996|INFO|BibleLoggerRule|Entering VerseController.Detials: 
+ With Paramenter: 1
+2021-04-14 14:39:38.8996|INFO|BibleLoggerRule|Entering VerseBusinessService.GetById: 
+ With Parameter: 1
+2021-04-14 14:39:38.8996|INFO|BibleLoggerRule|Entering VerseDAO.GetById 
+ With Parameter: 1
+2021-04-14 14:39:38.9706|INFO|BibleLoggerRule|Leaving VerseDAO.GetById 
+ With Parameter: Id: 1 Testament: Old        Book: Genesis                                                                                              Chapter Number: 1 Verse Number: 1 Text: In the beginning God created the heavens and the earth.
+2021-04-14 14:39:54.8424|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 14:39:54.8424|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 14:39:54.8478|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 14:39:54.8478|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:41:42.2468|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: Old and 1
+2021-04-14 14:41:42.2468|INFO|BibleLoggerRule|Leaving VerseController.Serach to Testament
+2021-04-14 14:41:42.2468|INFO|BibleLoggerRule|Entering VerseBusinessService.SearchTestament: 
+ With Parameter: Old
+2021-04-14 14:41:42.2616|INFO|BibleLoggerRule|Entering VerseDAO.SearchTestament 
+ With Parameter: Old
+2021-04-14 14:41:42.2616|INFO|BibleLoggerRule|Leaving VerseDAO.SerachTestament 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:41:58.1230|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: 5 and 4
+2021-04-14 14:41:58.1230|INFO|BibleLoggerRule|Leaving VerseController.Serach to SerachVerse
+2021-04-14 14:41:58.1317|INFO|BibleLoggerRule|Entering VerseBusinessService.SearchVerse: 
+ With Parameter: 5
+2021-04-14 14:41:58.1317|INFO|BibleLoggerRule|Entering VerseDAO.SearchVerse 
+ With Parameter: 5
+2021-04-14 14:41:58.1468|INFO|BibleLoggerRule|Leaving VerseDAO.SerachVerse 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:42:32.7271|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: Jerusalem  and 0
+2021-04-14 14:42:32.7271|INFO|BibleLoggerRule|Leaving VerseController.Serach to SerachAll
+2021-04-14 14:42:32.7271|INFO|BibleLoggerRule|Entering VerseBusinessService.Search: 
+ With Parameter: Jerusalem 
+2021-04-14 14:42:32.7420|INFO|BibleLoggerRule|Entering VerseDAO.Serach 
+ With Parameter: Jerusalem 
+2021-04-14 14:42:32.7420|INFO|BibleLoggerRule|Leaving VerseDAO.Serach 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:42:39.4087|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: In and 0
+2021-04-14 14:42:39.4106|INFO|BibleLoggerRule|Leaving VerseController.Serach to SerachAll
+2021-04-14 14:42:39.4106|INFO|BibleLoggerRule|Entering VerseBusinessService.Search: 
+ With Parameter: In
+2021-04-14 14:42:39.4106|INFO|BibleLoggerRule|Entering VerseDAO.Serach 
+ With Parameter: In
+2021-04-14 14:42:39.4106|INFO|BibleLoggerRule|Leaving VerseDAO.Serach 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:42:45.6436|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: Jerusalem  and 0
+2021-04-14 14:42:45.6436|INFO|BibleLoggerRule|Leaving VerseController.Serach to SerachAll
+2021-04-14 14:42:45.6436|INFO|BibleLoggerRule|Entering VerseBusinessService.Search: 
+ With Parameter: Jerusalem 
+2021-04-14 14:42:45.6436|INFO|BibleLoggerRule|Entering VerseDAO.Serach 
+ With Parameter: Jerusalem 
+2021-04-14 14:42:45.6436|INFO|BibleLoggerRule|Leaving VerseDAO.Serach 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:44:09.8651|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 14:44:09.9308|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 14:44:10.0067|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 14:44:10.4822|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:44:11.8666|INFO|BibleLoggerRule|Entering VerseController.Create
+2021-04-14 14:51:12.2078|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 14:51:12.3533|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 14:51:12.3927|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 14:51:14.1089|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 14:51:15.9573|INFO|BibleLoggerRule|Entering VerseController.Create
+2021-04-14 15:05:22.8866|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 15:05:22.9673|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 15:05:23.0137|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 15:05:23.4000|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 15:05:28.9593|INFO|BibleLoggerRule|Entering VerseController.Create
+2021-04-14 15:05:44.4251|INFO|BibleLoggerRule|Entering VerseController.Index
+2021-04-14 15:05:44.4251|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 15:05:44.4251|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 15:05:44.4492|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 15:05:45.8112|INFO|BibleLoggerRule|Entering VerseController.Create
+2021-04-14 15:06:09.2259|INFO|BibleLoggerRule|Entering VerseController.ProcessCreate: 
+ With Paramenter: Id: 0 Testament: Old Book: John Chapter Number: 3 Verse Number: 16 Text: For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-04-14 15:06:09.2259|INFO|BibleLoggerRule|Entering VerseBusinessService.Insert: 
+ With Parameter: Id: 0 Testament: Old Book: John Chapter Number: 3 Verse Number: 16 Text: For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-04-14 15:06:09.2395|INFO|BibleLoggerRule|Entering VerseDAO.Insert 
+ With Parameter: Id: 0 Testament: Old Book: John Chapter Number: 3 Verse Number: 16 Text: For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-04-14 15:06:09.2995|INFO|BibleLoggerRule|Leaving VerseDAO.Insert 
+ With Parameter: Id: 0 Testament: Old Book: John Chapter Number: 3 Verse Number: 16 Text: For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
+2021-04-14 15:06:09.2995|INFO|BibleLoggerRule|Entering VerseBusinessService.Get
+2021-04-14 15:06:09.2995|INFO|BibleLoggerRule|Entering VerseDAO.Get
+2021-04-14 15:06:09.2995|INFO|BibleLoggerRule|Leaving VerseDAO.Get 
+ With Paramenter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
+2021-04-14 15:06:17.6175|INFO|BibleLoggerRule|Entering VerseController.Serach: 
+ With Paramenter: John 3:16 and 0
+2021-04-14 15:06:17.6175|INFO|BibleLoggerRule|Leaving VerseController.Serach to SerachAll
+2021-04-14 15:06:17.6175|INFO|BibleLoggerRule|Entering VerseBusinessService.Search: 
+ With Parameter: John 3 16
+2021-04-14 15:06:17.6175|INFO|BibleLoggerRule|Entering VerseDAO.Serach 
+ With Parameter: John 3 16
+2021-04-14 15:06:17.6313|INFO|BibleLoggerRule|Leaving VerseDAO.Serach 
+ With Parameter: System.Collections.Generic.List`1[BibleVerseApp.Models.VerseModel]
